@@ -1,0 +1,12 @@
+IO4-DCC-Booster
+
+Mar, 2017
+
+Corrected several 2.0 limitations
+* uC control of out of service LED to account for dual (remote and local) OOS inputs
+* Use a N-MosFET instead of a NPN! (2N7002)
+* adjusted LCD mount to clear IO4 connector
+* reversed DCC command station input phase
+* aligned silk screen on back to clear pads/vias
+* Added a connector for off-board feedback LEDs (outboard resistors required!)
+
