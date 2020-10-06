@@ -8,24 +8,24 @@
 </settings>
 <grid distance="100" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="2" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="23" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="29" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="36" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="17" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="30" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="63" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="34" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="56" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="2" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="23" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="29" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="36" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="17" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="30" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="63" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="34" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="56" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="3" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,19 +43,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="16" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="35" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="35" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="21" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="36" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="48" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="24" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="35" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="21" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="36" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="48" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="24" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -12017,8 +12017,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <parts>
 <part name="FRAME1" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="ARDUINO1" library="SPCoast" deviceset="ARDUINO-PRO-MINI" device="DAVESROBOT"/>
-<part name="J1" library="con-lstb" deviceset="MA04-2" device="" value="CTL-IBT-2"/>
-<part name="CON5" library="SPCoast" deviceset="CONNECTOR-IO4" device="PNL" value="IO4"/>
+<part name="J1" library="con-lstb" deviceset="MA04-2" device="" value="2x4-0.100"/>
+<part name="CON5" library="SPCoast" deviceset="CONNECTOR-IO4" device="PNL" value="RJ12/6"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="OPTO1" library="SPCoast" deviceset="OPTO-6N137" device="" value="6N137"/>
 <part name="R3" library="SPCoast" deviceset="R*" device="0805-RES" value="4k7"/>
@@ -12049,7 +12049,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R4" library="SPCoast" deviceset="R*" device="0805-RES" value="1k0"/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
-<part name="U$1" library="SPCoast" deviceset="LCD" device="1602"/>
+<part name="LCD" library="SPCoast" deviceset="LCD" device="1602" value="LCD"/>
 <part name="LED4" library="SPCoast" deviceset="LED*" device="0603-LED" value="R"/>
 <part name="LED2" library="SPCoast" deviceset="LED*" device="0603-LED" value="B"/>
 <part name="LED5" library="SPCoast" deviceset="LED*" device="0603-LED" value="R"/>
@@ -12063,7 +12063,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="R7" library="SPCoast" deviceset="R*" device="0805-RES" value="4k7"/>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
-<part name="SW1" library="SPCoast" deviceset="SWITCH-SPST" device="PTH-508"/>
+<part name="SW1" library="SPCoast" deviceset="SWITCH-SPST" device="PTH-508" value="SPDT"/>
 <part name="TP-PWM" library="testpad" deviceset="TP" device="PAD1-13" value="TPPAD1-13">
 <attribute name="TP_SIGNAL_NAME" value="PWM"/>
 </part>
@@ -12104,8 +12104,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U$3" library="SPCoast" deviceset="MOUNTINGHOLE" device=""/>
 <part name="U$4" library="SPCoast" deviceset="MOUNTINGHOLE" device=""/>
 <part name="U$5" library="SPCoast" deviceset="MOUNTINGHOLE" device=""/>
-<part name="SW2" library="SPCoast" deviceset="SWITCH-DPDT" device="PTH-PB"/>
-<part name="CON9" library="SPCoast" deviceset="CONNECTOR-M04" device="5.08"/>
+<part name="SW2" library="SPCoast" deviceset="SWITCH-DPDT" device="PTH-PB" value="DPDT"/>
+<part name="CON9" library="SPCoast" deviceset="CONNECTOR-M04" device="5.08" value="0.200"/>
 </parts>
 <sheets>
 <sheet>
@@ -12283,7 +12283,7 @@ Signal conditioning</text>
 <instance part="P+6" gate="VCC" x="154.94" y="91.44" smashed="yes">
 <attribute name="VALUE" x="152.4" y="88.9" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$1" gate="LCD" x="241.3" y="22.86" smashed="yes">
+<instance part="LCD" gate="LCD" x="241.3" y="22.86" smashed="yes">
 <attribute name="VALUE" x="237.236" y="20.574" size="1.778" layer="96"/>
 </instance>
 <instance part="LED4" gate="LED" x="139.7" y="154.94" smashed="yes" rot="R270">

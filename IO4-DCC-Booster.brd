@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="2" fill="1" visible="no" active="yes"/>
@@ -1262,11 +1262,11 @@ design rules under a new name.
 <attribute name="NAME" x="45.085" y="80.01" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="42.799" y="77.724" size="1.016" layer="27" ratio="10"/>
 </element>
-<element name="CON5" library="SPCoast" package="RJ25-PANEL" value="IO4" x="94.615" y="83.82" smashed="yes" rot="R90">
+<element name="CON5" library="SPCoast" package="RJ25-PANEL" value="RJ12/6" x="94.615" y="83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="103.886" y="82.55" size="1.016" layer="25" rot="R90"/>
 <attribute name="VALUE" x="99.06" y="87.122" size="1.016" layer="27" rot="R90"/>
 </element>
-<element name="J1" library="con-lstb" package="MA04-2" value="CTL-IBT-2" x="19.05" y="68.58" smashed="yes">
+<element name="J1" library="con-lstb" package="MA04-2" value="2x4-0.100" x="19.05" y="68.58" smashed="yes">
 <attribute name="MF" value="" x="19.05" y="68.58" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="19.05" y="68.58" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="19.05" y="68.58" size="1.778" layer="27" display="off"/>
@@ -1336,7 +1336,7 @@ design rules under a new name.
 <attribute name="NAME" x="11.811" y="74.93" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="14.478" y="73.025" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="U$1" library="SPCoast" package="LCD-16X2-SILK" value="" x="42.672" y="79.756" smashed="yes"/>
+<element name="LCD" library="SPCoast" package="LCD-16X2-SILK" value="LCD" x="42.672" y="79.756" smashed="yes"/>
 <element name="LED4" library="SPCoast" package="0603-LED" value="R" x="71.247" y="7.112" smashed="yes" rot="R270">
 <attribute name="VALUE" x="73.152" y="8.382" size="1.27" layer="21" rot="R180"/>
 </element>
@@ -1376,7 +1376,7 @@ design rules under a new name.
 <attribute name="NAME" x="86.8045" y="45.974" size="1.016" layer="25" rot="R90"/>
 <attribute name="VALUE" x="90.043" y="47.371" size="1.016" layer="27"/>
 </element>
-<element name="SW1" library="SPCoast" package="SWITCH-SPDT-508" value="" x="94.615" y="64.77" smashed="yes" rot="R90">
+<element name="SW1" library="SPCoast" package="SWITCH-SPDT-508" value="SPDT" x="94.615" y="64.77" smashed="yes" rot="R90">
 <attribute name="NAME" x="100.584" y="64.135" size="1.016" layer="25"/>
 <attribute name="VALUE" x="100.33" y="58.42" size="1.778" layer="27" ratio="10" rot="R90"/>
 </element>
@@ -1449,8 +1449,8 @@ design rules under a new name.
 <element name="U$3" library="SPCoast" package="MOUNTINGHOLE" value="MOUNTINGHOLE" x="5.08" y="5.08"/>
 <element name="U$4" library="SPCoast" package="MOUNTINGHOLE" value="MOUNTINGHOLE" x="94.742" y="5.08"/>
 <element name="U$5" library="SPCoast" package="MOUNTINGHOLE" value="MOUNTINGHOLE" x="94.742" y="95.25"/>
-<element name="SW2" library="SPCoast" package="8X8-SQ-PB" value="" x="64.77" y="68.58" rot="R270"/>
-<element name="CON9" library="SPCoast" package="MSTBA4" value="" x="27.305" y="2.032"/>
+<element name="SW2" library="SPCoast" package="8X8-SQ-PB" value="DPDT" x="64.77" y="68.58" rot="R270"/>
+<element name="CON9" library="SPCoast" package="MSTBA4" value="0.200" x="27.305" y="2.032"/>
 </elements>
 <signals>
 <signal name="GND">
